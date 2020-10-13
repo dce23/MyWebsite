@@ -3,7 +3,7 @@
     "name": "Eric Lepki",
     "occupation": "Web Developer && Programmer",
     "description": "Currently seeking a Full Stack Developer || Python Developer || C++ Developer Position",
-    "image": "IG_Sonny.jpeg",
+    "image": "Myself.jpeg",
     "bio": "Hi, I'm Eric, a Full Stack ReactJS Developer, and a System Analyst. I have competed in 5 hackathons across Texas. In one hackathon me and my team won the best AR app. The areas I'm most passionate about is cybersecurity, software development, and computer networking. I love to learn, teach, and grow. You'll usually find me wrangling with data, programming, or keeping up with the last news in the cybersecurity world.",
     "contactmessage": "Get in touch with me to receive further details, or anything else.",
     "email": "elepki@sbcglobal.net",
@@ -47,13 +47,20 @@
     ],
     "work": [
       {
+        "company": "Covid-19-Tracker(React, Firebase, JavaScript",
+        "years": [
+          "Built a Website that shows the currently active virus cases, recovered cases, and total deaths around the world, ",
+          "Implemented a map that shows the hotspot for the virus, and a table that displays the total number of cases per state"
+        ]
+      },
+      {
         "company": "Autocompleter(C++)",
         "years": "Created a program that computes the top 3 completions of any 293,147 common English words quickly"
       },
       {
         "company": "TrendTracker(C++)",
         "years": [
-          "Created a program to track information about an assortment of 3612 common English word hashtags that a person is interested in,",
+          "Created a program to track information about an assortment of 3612 common English word hashtags that a person is interested in, ",
           "including their top trending hashtag"
         ]
       },
@@ -98,14 +105,20 @@
       {
         "title": "COVID-19 Tracker",
         "category": "COVID-19 Tracker with REACT JS (React Hooks and Material UI)",
-        "image": "airbnb-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=cF3pIMJUZxM"
+        "image": "images/project1.jpeg",
+        "url": "https://covid-19-tracker-eddf9.web.app/"
       },
       {
-        "title": "Netflix Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "netflix-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+        "title": "Autocompleter",
+        "category": "Autocompleter built with C++",
+        "image": "images/project2.jpeg",
+        "url": "https://repl.it/@dce23/Autocompleter-3#main.cpp"
+      },
+      {
+        "title": "Trendtracker",
+        "category": "Trendtracker built with C++",
+        "image": "images/project3.jpeg",
+        "url": "https://repl.it/@dce23/HWKTT1#main.cpp"
       }
     ]
   },
