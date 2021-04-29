@@ -50,7 +50,14 @@ class Resume extends Component {
 
           <div className="nine columns main-col">
             <div className="row item">
-              <div className="twelve columns">{education}</div>
+              <div className="twelve columns">
+                {education}
+                <h5>
+                  <a href="https://www.freecodecamp.org/certification/dce23/responsive-web-design">
+                    View my certification
+                  </a>
+                </h5>
+              </div>
             </div>
           </div>
         </div>
