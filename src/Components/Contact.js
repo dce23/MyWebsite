@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Contact = ({ data }) => {
   const [url, setUrl] = useState(
-    "mailto:test@example.com?subject=subject&body=body"
+    "mailto:elepki@sbcglobal.net?subject=subject&body=body"
   );
   const [name, setName] = useState("");
   const [subject, setSubject] = useState("");
@@ -102,7 +102,10 @@ const Contact = ({ data }) => {
             </fieldset>
           </form>
 
-          <div id="message-warning"> Error boy</div>
+          <div id="message-warning">
+            {" "}
+            Error Please Try Sending The Message Again.
+          </div>
           <div id="message-success">
             <i className="fa fa-check"></i>Your message was sent, thank you!
             <br />
@@ -115,7 +118,6 @@ const Contact = ({ data }) => {
             <p className="address">
               {data?.name}
               <br />
-              {data?.address.street} <br />
               {data?.address.city}, {data?.address.state} {data?.address.zip}
               <br />
               <span>{data?.phone}</span>
